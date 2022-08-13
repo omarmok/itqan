@@ -530,6 +530,19 @@
 	</script> 
 	<script>
 	                  AOS.init();
+	
+		
+var nav = $('.main-portal-header');
+$(window).scroll(function () {
+if ($(this).scrollTop() > 95) {
+nav.addClass("sticky-top-header");
+} else {
+nav.removeClass("sticky-top-header");
+}
+});
+
+	
 	</script>
+
 </body>
 </html>

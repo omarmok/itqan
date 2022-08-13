@@ -1,45 +1,14 @@
 jQuery(document).ready(function () {
-    var nav = $('.main-portal-header');
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 95) {
-            nav.addClass("sticky-top-header");
-        } else {
-            nav.removeClass("sticky-top-header");
-        }
-    });
+    // var nav = $('.main-portal-header');
+    // $(window).scroll(function () {
+    //     if ($(this).scrollTop() > 95) {
+    //         nav.addClass("sticky-top-header");
+    //     } else {
+    //         nav.removeClass("sticky-top-header");
+    //     }
+    // });
     
 
-  
-
-    $(".adjust").click(function(){
-        $("body").toggleClass("invert");
-      });
-
-      
-
-
-        var scrollButton = $('.seetings');
-        $(window).scroll(function () {
-            $(this).scrollTop() >= 200 ? scrollButton.show() : scrollButton.hide();
-        });
-        scrollButton.click(function () {
-            $('html,body').animate({
-                scrollTop: 0
-            }, 1000);
-        });
-
-        $(".topMenu").click(function(){
-          $(".openmenu").toggle();
-        });
-
-        setTimeout(function(){
-          $('body').addClass('loaded');
-      
-        }, 3000);
-
-
-
-        
 
 
         (function ($) {
