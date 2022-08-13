@@ -1,12 +1,12 @@
 jQuery(document).ready(function () {
-    // var nav = $('.main-portal-header');
-    // $(window).scroll(function () {
-    //     if ($(this).scrollTop() > 95) {
-    //         nav.addClass("sticky-top-header");
-    //     } else {
-    //         nav.removeClass("sticky-top-header");
-    //     }
-    // });
+    var nav = $('.main-portal-header');
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 95) {
+            nav.addClass("sticky-top-header");
+        } else {
+            nav.removeClass("sticky-top-header");
+        }
+    });
     
 
 
