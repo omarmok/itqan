@@ -9,7 +9,27 @@ jQuery(document).ready(function () {
     });
     
 
-
+    $('.customer-logos').slick({
+        dots: false,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 5 ,
+        slidesToScroll:1,
+        autoplay:true,
+        arrows:false,
+        rtl:true,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
 
         (function ($) {
             $.fn.countTo = function (options) {
