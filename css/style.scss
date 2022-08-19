@@ -562,10 +562,13 @@ section{
   .vision{
     padding: 20px;
     border-radius: 15px;
-    background: url(../img/packages.png) $maincolor;
-    background-position: bottom left;
+    background: url(../img/ItqanLogo.svg) $maincolor;
+    
+    background-size: 138px;
+    background-position: 0 170px;
+    
     background-repeat: no-repeat;
-    min-height:230px;
+    min-height:300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -580,10 +583,12 @@ section{
     position: relative;
     align-items: start;
       img{
-        height: 30px;
+        height: 50px;
         margin-bottom: 10px;
         filter: brightness(0) invert(1);
+       
       }
+     
       h3{
         font-size: 20px;
         font-weight: bold;
@@ -591,16 +596,36 @@ section{
       }
       p{
         font-size: 14px;
-        line-height: 1.9;
+        line-height: 2.5;
         color: #fff;
       }
-   
+   ul{
+    li{
+      font-size: 14px;
+      line-height: 2.5;
+      color: #fff;
+      i{
+        font-size: 14px;
+        color: #2da9db;
+        margin-left: 5px;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+    }
+   }
   }
  .solutions{
 
 
-  background: url(../img/packages.png) $primarycolor;
-  background-position: bottom left;
+  background: url(../img/ItqanLogo.svg) $primarycolor;
+  background-size: 138px;
+  background-position: 0 170px;
   background-repeat: no-repeat;
 
 
@@ -609,7 +634,7 @@ section{
 
 .whyitqan{
   @extend .services;
-  background-color: #f8f9fa !important;
+
   margin-top: 50px;
   .ques{
    h3{
@@ -1146,4 +1171,28 @@ img{
   height: 100px;
   margin: 0 auto;
 }
+ }
+
+ .whyitqanNewbg{
+
+  background-attachment: fixed;
+    background-color: $primarycolor;
+    background-image: url(../img/ItqanLogo.svg);
+    background-position: 90%;
+    background-repeat: no-repeat;
+    background-size: 280px;
+    overflow: hidden;
+    position: relative;
+    .title{
+      h3{
+        color:#fff !important;
+      }
+    }
+    .why{
+      box-shadow: none;
+      background-color: rgba(255, 255, 255,0.05);
+      .title{
+        color:#fff;
+      }
+    }
  }
