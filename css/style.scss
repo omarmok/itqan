@@ -1473,3 +1473,83 @@ top: 28px;
       }
     }
 }
+
+.rigester{
+  h3{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: $maincolor !important;
+  }
+  h4{
+    font-size: 16px !important;
+    font-weight: bold;
+    color: #000 !important;
+  }
+  form{
+margin-top: 20px;
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #d3d3d3;
+    .form-group{
+      margin: 10px;
+    }
+    label{
+      font-size: 14px;
+      font-weight: 700;
+    }
+ 
+    .btn-secondary{
+      background-color: $maincolor;
+      border-color: $maincolor;
+    }
+  }
+  .conditions{
+    padding: 15px;
+    background: #fafafa;
+    border-top: 1px solid #31aadd;
+    margin-top: 20px;
+    h5{
+      font-size: 16px;
+      font-weight: 700;
+      color:$primarycolor;
+  
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.9;
+      margin-bottom: 0;
+    }
+  }
+ .table{
+  font-size: 14px;
+text-align: center;
+  th{
+    background-color: $primarycolor;
+    color: #fff;
+
+  }
+  .second{
+    background-color: $maincolor;
+    color: #fff;
+  }
+  .third{
+    background-color: #d9d9d9;
+  }
+  i{
+    font-size: 20px;
+  }
+  .fa-circle-check{
+    color: #4caf50;
+  }
+  .fa-circle-xmark{
+    color: #ff5722;
+  }
+ }
+}
+.condition{
+  text-decoration: underline;
+  margin-right: 20px;
+  color: #ff4100;
+  font-size: 16px;
+  font-weight: 700;
+}

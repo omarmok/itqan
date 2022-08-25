@@ -1561,4 +1561,95 @@ footer li a {
 .internaiabout .vision p {
   line-height: 2.5;
 }
+
+.rigester h3 {
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #2da9db !important;
+}
+
+.rigester h4 {
+  font-size: 16px !important;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.rigester form {
+  margin-top: 20px;
+  background: #f4f4f4;
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+}
+
+.rigester form .form-group {
+  margin: 10px;
+}
+
+.rigester form label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.rigester form .btn-secondary {
+  background-color: #2da9db;
+  border-color: #2da9db;
+}
+
+.rigester .conditions {
+  padding: 15px;
+  background: #fafafa;
+  border-top: 1px solid #31aadd;
+  margin-top: 20px;
+}
+
+.rigester .conditions h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #054b7e;
+}
+
+.rigester .conditions p {
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 0;
+}
+
+.rigester .table {
+  font-size: 14px;
+  text-align: center;
+}
+
+.rigester .table th {
+  background-color: #054b7e;
+  color: #fff;
+}
+
+.rigester .table .second {
+  background-color: #2da9db;
+  color: #fff;
+}
+
+.rigester .table .third {
+  background-color: #d9d9d9;
+}
+
+.rigester .table i {
+  font-size: 20px;
+}
+
+.rigester .table .fa-circle-check {
+  color: #4caf50;
+}
+
+.rigester .table .fa-circle-xmark {
+  color: #ff5722;
+}
+
+.condition {
+  text-decoration: underline;
+  margin-right: 20px;
+  color: #ff4100;
+  font-size: 16px;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
