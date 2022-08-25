@@ -1342,4 +1342,128 @@ footer li a {
   -webkit-transform: rotate3d(1, -1, 0, 180deg);
           transform: rotate3d(1, -1, 0, 180deg);
 }
+
+.how-wrap {
+  width: 154px;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+}
+
+.how-wrap h4 {
+  font-size: 14px;
+  color: #0f5d8c;
+  line-height: 18px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.how-wrap .circle-wrap {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #2d7cac;
+  background: #fff;
+}
+
+.how-wrap .circle-wrap .how-wrap .stepNumber {
+  width: 26px;
+  height: 26px;
+  line-height: 24px;
+  background-color: #0f5c89;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  margin-left: -12px;
+}
+
+.how-wrap .how-img {
+  position: relative;
+  top: 28px;
+}
+
+.how-wrap .how-img img {
+  height: 47px;
+}
+
+.col-md-12 .how-wrap:nth-child(odd) h4 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.col-md-12 .how-wrap:nth-child(odd) .circle-wrap {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.stepNumber {
+  background: linear-gradient(157deg, #2da9db 26%, #294a7a 87%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50%;
+  right: 34%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -18px;
+}
+
+.how-wrap .circle-wrap .topnumber {
+  top: -18px;
+  position: absolute;
+}
+
+.how-wrap:before {
+  content: "";
+  height: 100px;
+  width: 5px;
+  background-color: #bccbd4;
+  position: absolute;
+  left: 0;
+  top: 25%;
+}
+
+.col-md-12 .how-wrap:nth-child(odd):before {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.col-md-12 .how-wrap:nth-child(even):before {
+  -webkit-transform: rotate(115deg);
+          transform: rotate(115deg);
+}
+
+.col-md-12 .how-wrap:last-child:before {
+  display: none;
+}
+
+.how-wrap ul {
+  position: absolute;
+  bottom: -72px;
+  text-align: right;
+  font-size: 14px;
+  padding: 0;
+  margin: 0 25px 0 0;
+  color: #115d88;
+}
 /*# sourceMappingURL=style.css.map */
