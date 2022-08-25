@@ -1115,6 +1115,7 @@ h4{
 .back {
 	transform: rotateY(180deg);
   background-color:$primarycolor;
+  background: linear-gradient(87deg, #2da9db 0%, #294a7a 100%);
   p{
     color:#fff;
     text-align: justify;
@@ -1387,4 +1388,88 @@ top: 28px;
   padding: 0;
   margin: 0 25px 0 0;
   color: #115d88;
+}
+
+.internalhero{
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  .container{
+    z-index: 99999;
+    margin-top: 40px;
+    h3{
+      font-weight: 900;
+        font-size: 58px;
+        border-bottom: 5px solid #0a71c0;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+    p{
+      text-align: justify;
+    font-size: 14px;
+    width: 700px;
+    line-height: 1.9;
+    width: 100%;
+
+    }
+  }
+   
+  .overlaydiv{
+    background: rgba(8, 8, 8, 0.8);
+    height: 100vh;
+  }
+  img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+  }
+}
+.aboutsection{
+  padding-bottom: 20px !important;
+.contentright{
+  h3{
+    font-size: 30px !important;
+    font-weight: bold;
+    color: #054b7e !important;
+  }
+  p{
+    text-align: justify;
+    font-size: 14px;
+    width: 700px;
+    line-height: 1.9;
+    width: 100%;
+  }
+}
+  .contentimg{
+   img{
+    width: 100%;
+   }
+  }
+}
+.internalservice{
+  padding-top: 0 !important;
+}
+.internaiabout{
+  background-image: url(../img/vision.jpeg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .vision{
+      text-align: center;
+      color:#fff;
+      .maintitle{
+        font-weight: 700;
+        color:#fff;
+      }
+      img{
+        height: 100px;
+        filter: brightness(0) invert(1);
+        margin-bottom: 20px;
+      }
+      p{
+        line-height: 2.5;
+      }
+    }
 }
